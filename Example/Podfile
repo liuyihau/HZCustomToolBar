@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HZCustomToolBar_Example' do
+  pod 'HZCustomToolBar', :path => '../'
+
+  target 'HZCustomToolBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
