@@ -1,0 +1,6 @@
+framework module HZCustomToolBar {
+  umbrella header "HZCustomToolBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

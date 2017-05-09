@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A53936A871765DCBA1308A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A53936A871765DCBA1308A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		46D8F7F214909F4AB792DEB2 /* Pods_HZCustomToolBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZCustomToolBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5011EDF6EA42A2B83442017A /* Pods_HZCustomToolBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZCustomToolBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HZCustomToolBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCustomToolBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6150CDD6DBE706C9E71A1210 /* HZCustomToolBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HZCustomToolBar.podspec; path = ../HZCustomToolBar.podspec; sourceTree = "<group>"; };
+		6150CDD6DBE706C9E71A1210 /* HZCustomToolBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HZCustomToolBar.podspec; path = ../HZCustomToolBar.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		740F7FA7142DDF3EDAAF1DA9 /* Pods-HZCustomToolBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCustomToolBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZCustomToolBar_Tests/Pods-HZCustomToolBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D90CE85F84FBFC6C32AA37F /* Pods-HZCustomToolBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCustomToolBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZCustomToolBar_Tests/Pods-HZCustomToolBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6BD57B30C33A3D7A74695F0 /* Pods-HZCustomToolBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCustomToolBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZCustomToolBar_Example/Pods-HZCustomToolBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F53D0E4228EEF81135D4B856 /* Pods-HZCustomToolBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCustomToolBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZCustomToolBar_Example/Pods-HZCustomToolBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB325C3FE1FDFA6FB14BA8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBB325C3FE1FDFA6FB14BA8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "liuyihua2015@sina.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M73W32UBUV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = F53D0E4228EEF81135D4B856 /* Pods-HZCustomToolBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M73W32UBUV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZCustomToolBar/HZCustomToolBar-Prefix.pch";
 				INFOPLIST_FILE = "HZCustomToolBar/HZCustomToolBar-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = C6BD57B30C33A3D7A74695F0 /* Pods-HZCustomToolBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M73W32UBUV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HZCustomToolBar/HZCustomToolBar-Prefix.pch";
 				INFOPLIST_FILE = "HZCustomToolBar/HZCustomToolBar-Info.plist";

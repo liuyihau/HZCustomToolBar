@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZCustomToolBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZCustomToolBar (from `../`)
+
+EXTERNAL SOURCES:
+  HZCustomToolBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  HZCustomToolBar: f3ab1ef45b87f81b37d22034dea6721050728596
+
+PODFILE CHECKSUM: cea516fdbae49864ac79d48a6efa989480c7fb7e
+
+COCOAPODS: 1.2.1
