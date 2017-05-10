@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'HZCustomToolBar/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HZCustomToolBar' => ['HZCustomToolBar/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'HZCustomToolBar' => ['HZCustomToolBar/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

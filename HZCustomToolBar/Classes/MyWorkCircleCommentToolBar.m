@@ -227,7 +227,7 @@
 {
     self.maxTextInputViewHeight = kInputTextViewMaxHeight;
     
-    self.backgroundImageView.image = [[UIImage imageNamed:@"messageToolbarBg"] stretchableImageWithLeftCapWidth:0.5 topCapHeight:10];
+    self.backgroundImageView.image = [[self toolBar_imageNamed:@"messageToolbarBg"] stretchableImageWithLeftCapWidth:0.5 topCapHeight:10];
     [self addSubview:self.backgroundImageView];
     
     self.toolbarView.frame = CGRectMake(0, 0, self.frame.size.width, kVerticalPadding * 2 + kInputTextViewMinHeight);
@@ -446,7 +446,28 @@
     
 }
 
+#pragma mark - 获取本Bundle中的图片资源
+- (NSBundle *)HZCustomToolBarBundle
+{
+    static NSBundle *CustomToolBarBundle = nil;
+    
+    if (nil == CustomToolBarBundle) {
+        
+        CustomToolBarBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"HZCustomToolBar" ofType:@"bundle"]];
+        
+        if (nil == CustomToolBarBundle) {
+            CustomToolBarBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"HZCustomToolBar" ofType:@"bundle"]];
+        }
+    }
+    return CustomToolBarBundle;
+}
 
-
+- (UIImage *)toolBar_imageNamed:(NSString *)name
+{
+    CGFloat scale = [[UIScreen mainScreen] scale];
+    name = 3.0 == scale ? [NSString stringWithFormat:@"%@@3x.png", name] : [NSString stringWithFormat:@"%@@2x.png", name];
+    UIImage *image = [UIImage imageWithContentsOfFile:[[[self HZCustomToolBarBundle] resourcePath] stringByAppendingPathComponent:name]];
+    return image;
+}
 
 @end
