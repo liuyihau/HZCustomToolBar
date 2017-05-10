@@ -11,10 +11,6 @@
 @implementation UITextView (Extension)
 
 
--(void)insertAttributedText:(NSAttributedString *)text
-{
-}
-
 -(void)insertAttributedText:(NSAttributedString *)text settingBlock:(void(^)(NSMutableAttributedString *attributedText))settingBlock
 {
     

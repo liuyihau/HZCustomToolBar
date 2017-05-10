@@ -56,9 +56,6 @@ typedef NS_ENUM(NSUInteger, XHTextViewInputViewType) {
 + (NSUInteger)numberOfLinesForMessage:(NSString *)text;
 
 
--(void)insertEmotion:(Emotion *)emotion;
-
-
 -(NSString *)fullText;
 
 @end

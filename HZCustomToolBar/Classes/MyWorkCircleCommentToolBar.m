@@ -166,13 +166,7 @@
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     if ([text isEqualToString:@"\n"]) {
-        if ([self.delegate respondsToSelector:@selector(didSendText:)]) {
-            [self.delegate didSendText:self.inputTextView.fullText];
-            self.inputTextView.text = @"";
-
-            [self willShowInputTextViewToHeight:[self getTextViewContentH:self.inputTextView]];;
-        }
-        
+        [self buttonAction:nil];
         return NO;
     }
     return YES;
@@ -180,21 +174,6 @@
 
 - (void)textViewDidChange:(UITextView *)textView
 {
-    
-    if (self.inputTextView.fullText.length > 0) {
-        
-        [self.sendButton setTitleColor:RGBColor(101, 200, 52)forState:UIControlStateNormal];
-        self.sendButton.layer.borderColor = RGBColor(101, 200, 52).CGColor;
-        self.sendButton.userInteractionEnabled = YES;
-        
-    }else{
-        
-        [self.sendButton setTitleColor:RGBColor(180, 180, 180)forState:UIControlStateNormal];
-        self.sendButton.layer.borderColor = RGBColor(180, 180, 180).CGColor;
-        self.sendButton.userInteractionEnabled = NO;
-        
-    }
-    
     [self willShowInputTextViewToHeight:[self getTextViewContentH:textView]];
 }
 
@@ -351,6 +330,22 @@
 
 - (void)willShowInputTextViewToHeight:(CGFloat)toHeight
 {
+    //按钮变化
+    if (self.inputTextView.fullText.length > 0) {
+        
+        [self.sendButton setTitleColor:RGBColor(101, 200, 52)forState:UIControlStateNormal];
+        self.sendButton.layer.borderColor = RGBColor(101, 200, 52).CGColor;
+        self.sendButton.userInteractionEnabled = YES;
+        
+    }else{
+        
+        [self.sendButton setTitleColor:RGBColor(180, 180, 180)forState:UIControlStateNormal];
+        self.sendButton.layer.borderColor = RGBColor(180, 180, 180).CGColor;
+        self.sendButton.userInteractionEnabled = NO;
+        
+    }
+
+ 
     if (toHeight < kInputTextViewMinHeight) {
         toHeight = kInputTextViewMinHeight;
         
@@ -415,9 +410,9 @@
 
     if ([self.delegate respondsToSelector:@selector(didSendText:)]) {
         [self.delegate didSendText:self.inputTextView.fullText];
+   
         self.inputTextView.text = @"";
-        
-        [self willShowInputTextViewToHeight:[self getTextViewContentH:self.inputTextView]];;
+        [self willShowInputTextViewToHeight:[self getTextViewContentH:self.inputTextView]];
     }
 
     

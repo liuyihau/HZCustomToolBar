@@ -24,14 +24,14 @@
 /**
  *  文字输入框开始编辑
  *
- *  @param inputTextView 输入框对象
+ *  @param messageInputTextView 输入框对象
  */
 - (void)inputTextViewDidBeginEditing:(XHMessageTextView *)messageInputTextView;
 
 /**
  *  文字输入框将要开始编辑
  *
- *  @param inputTextView 输入框对象
+ *  @param messageInputTextView 输入框对象
  */
 - (void)inputTextViewWillBeginEditing:(XHMessageTextView *)messageInputTextView;
 
