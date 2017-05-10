@@ -7,42 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03F3250DF8CC4F01E801A36F0D3ECA0F /* HZCustomToolBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBE0ADE443B519718657F07B0F4B85D /* HZCustomToolBar-dummy.m */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0FD3CA8011AA236378E40B156BEB80B3 /* MyWorkCircleCommentToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C2817C278B46A89689088F719076DB9C /* MyWorkCircleCommentToolBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		25697AAF45D291F4DE01A9BDAEC3958F /* XHMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 540C616226C3F0B0D0C71426331AFCEC /* XHMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9546F78D9891A23B37FBF7741FBF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F7D5AA7E90BB65A79FFF9CEB966E641 /* XHMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CD9AF7FCDE4CFDF8AD24FB905DFC0 /* XHMessageTextView.m */; };
+		2F57537C9537BCA71DE8F1C56B613FC2 /* XHMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3A9E0A4F995340F2CA78F9EEC05EB /* XHMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4CBF028644B05EA13818CD2A3ACD5BEA /* messageToolbarBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B40372CE6F041CA521B2DB0C0B48652 /* messageToolbarBg@3x.png */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		64C591BBC61952045791F5F4C577F9A4 /* MyWorkCircleCommentToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 720FF8EEDB3A92C9F5D9C6B458043584 /* MyWorkCircleCommentToolBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67CC04AEB2752F5BFEEB556B14387048 /* HZCustomToolBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D553170B4948865D35EE2688A20EE4 /* HZCustomToolBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		701C01F4A016B82EAC19A74F2CAB005F /* Pods-HZCustomToolBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4291BDE59F0C50071D5E931D04A521C /* Pods-HZCustomToolBar_Tests-dummy.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7DE3A43EDFE5496B19BC241A3CE19BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		7F2B5B891EC8FDE0D2C22B61D634D08D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		8C89A65939900E255F3F1810A4773C80 /* UITextView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F38700165CA05995FDCE6DA2CA1364 /* UITextView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97554B4437581A178C4B13607010DDE9 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 884D684DBC5EEBFDD6D82AD9A9FF7005 /* UITextView+Extension.m */; };
+		97CBD70E627F3A67C031092EA0112124 /* MyWorkCircleCommentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B490022A170BD12C77799EAE26C9BECB /* MyWorkCircleCommentToolBar.m */; };
 		9833658942C115AAAB76A3E830D3BBFF /* Pods-HZCustomToolBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CB76320828CCDB34690A3FC29D6515 /* Pods-HZCustomToolBar_Example-dummy.m */; };
+		9D715F405E01C1F969B881E726F849CA /* messageToolbarBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E568022ABE596CE4D8742A424BD43EB0 /* messageToolbarBg@2x.png */; };
+		9F57FADB90DBB29F210B9639A00CEE14 /* HZCustomToolBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D16FBA4289C6FE81C4FBF85C5B5D14B /* HZCustomToolBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B568D89CE7A4F2FE5216E4B7453017F0 /* MyWorkCircleCommentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9185CD98FD8BA37482D38A21393ECD94 /* MyWorkCircleCommentToolBar.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BBCA31C9AE8CEDC1A76F237AE12FCA /* XHMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7BD88908BF8644CD18345F2C60EED /* XHMessageTextView.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D9CB4D8FBDDA0A1D19A39F6F7E5A573E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		DA856724A31E5562F49DD47DA8451A53 /* Pods-HZCustomToolBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B5DF0E0C6D5C804D55E981223E1E45 /* Pods-HZCustomToolBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		DD3A4767D20D9AA6BFE0F73F3779113B /* HZCustomToolBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC326710F75E3DB9F18C7E938CECD8F1 /* HZCustomToolBar-dummy.m */; };
-		DD564E151EC1B68A00310909 /* UITextView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DD564E131EC1B68A00310909 /* UITextView+Extension.h */; };
-		DD564E161EC1B68A00310909 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD564E141EC1B68A00310909 /* UITextView+Extension.m */; };
 		F01A0691F6943DEA613384D9A8DB0B30 /* Pods-HZCustomToolBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3043406BC9F8A2C8B651E3DFEF4ECE7E /* Pods-HZCustomToolBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D817F77A74ACF61964204DDC0CF151 /* HZCustomToolBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9113ACDD71D3AB6804911A67467A22F2 /* HZCustomToolBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,20 +60,24 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A8FBB3B519F161CB3E57ACD699CF304;
+			remoteGlobalIDString = 7FF52AF6F50ABE3BCF5DDEF99A1EA5AF;
 			remoteInfo = HZCustomToolBar;
+		};
+		B4325065B096B1020053B2A3FAAC9F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBEC44E3B3760A369FA8F5B69C14B83;
+			remoteInfo = "HZCustomToolBar-HZCustomToolBar";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A6A4560C45027265C469C742EF44EE /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		19F38700165CA05995FDCE6DA2CA1364 /* UITextView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
 		1E1224841AED7BD72A1792D25DB99A30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20D553170B4948865D35EE2688A20EE4 /* HZCustomToolBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZCustomToolBar-umbrella.h"; sourceTree = "<group>"; };
-		29C81D3C579D618C0E8CDE463F06DC90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CC8947A3F4532B2EC0BCD20F02B4378 /* Pods_HZCustomToolBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZCustomToolBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		3043406BC9F8A2C8B651E3DFEF4ECE7E /* Pods-HZCustomToolBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZCustomToolBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -79,50 +86,57 @@
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		43A73789425A3C6D720C5AF4529E75AA /* Pods_HZCustomToolBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZCustomToolBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B5DF0E0C6D5C804D55E981223E1E45 /* Pods-HZCustomToolBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZCustomToolBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4923A18D83A51A79A279A4A8479B652F /* Pods_HZCustomToolBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZCustomToolBar_Example.framework; path = "Pods-HZCustomToolBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B40372CE6F041CA521B2DB0C0B48652 /* messageToolbarBg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "messageToolbarBg@3x.png"; sourceTree = "<group>"; };
 		4C3AAB5C4B6C4E8863390FBEA7FAE433 /* Pods-HZCustomToolBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCustomToolBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52BE7B5A1E079031C11E4EA17A92CCB5 /* Pods_HZCustomToolBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZCustomToolBar_Tests.framework; path = "Pods-HZCustomToolBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		540C616226C3F0B0D0C71426331AFCEC /* XHMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XHMessageTextView.h; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F55AC225AEFE4772111E692222B390F /* Pods-HZCustomToolBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZCustomToolBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		720FF8EEDB3A92C9F5D9C6B458043584 /* MyWorkCircleCommentToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyWorkCircleCommentToolBar.h; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8213F4FA74FADEFA1AD0A30FB3757037 /* Pods-HZCustomToolBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZCustomToolBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8C93E2631922003098A839378264FF1A /* Pods-HZCustomToolBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HZCustomToolBar_Example.modulemap"; sourceTree = "<group>"; };
-		9185CD98FD8BA37482D38A21393ECD94 /* MyWorkCircleCommentToolBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyWorkCircleCommentToolBar.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		884D684DBC5EEBFDD6D82AD9A9FF7005 /* UITextView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
+		89E716BDB71719D635BF3FDA387AD423 /* HZCustomToolBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZCustomToolBar-prefix.pch"; sourceTree = "<group>"; };
+		8C93E2631922003098A839378264FF1A /* Pods-HZCustomToolBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HZCustomToolBar_Example.modulemap"; sourceTree = "<group>"; };
+		8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZCustomToolBar.xcconfig; sourceTree = "<group>"; };
+		9113ACDD71D3AB6804911A67467A22F2 /* HZCustomToolBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HZCustomToolBar.bundle; path = HZCustomToolBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9707A6D23D1A41EBB30AAED206C0274A /* Pods-HZCustomToolBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZCustomToolBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D16FBA4289C6FE81C4FBF85C5B5D14B /* HZCustomToolBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZCustomToolBar-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A2B42A6D8243643E1A0E5C98963A32F9 /* Pods-HZCustomToolBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZCustomToolBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A54A3D10DCD559F9CA337390C7944B58 /* HZCustomToolBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HZCustomToolBar.framework; path = HZCustomToolBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C2FC6C24443BAAFB6ADFFF6633535E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8CCA3D23D203D10B7AB92F9EF5BE0CB /* Pods-HZCustomToolBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZCustomToolBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8FE65AD2C7D73494A8C1C6D8DAE2894 /* HZCustomToolBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HZCustomToolBar.modulemap; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B34047E39DE6F38CE56C805D2631417A /* HZCustomToolBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZCustomToolBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCBD6B636CFDA4589D78E0D0BF5EC00 /* HZCustomToolBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HZCustomToolBar.modulemap; sourceTree = "<group>"; };
+		B490022A170BD12C77799EAE26C9BECB /* MyWorkCircleCommentToolBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyWorkCircleCommentToolBar.m; sourceTree = "<group>"; };
 		B4987042603F4A6B6EE253358961A122 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C36CD9AF7FCDE4CFDF8AD24FB905DFC0 /* XHMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XHMessageTextView.m; sourceTree = "<group>"; };
+		BAB25B1AD9745E5BD1C987CE471E7369 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2817C278B46A89689088F719076DB9C /* MyWorkCircleCommentToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyWorkCircleCommentToolBar.h; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6F7BD88908BF8644CD18345F2C60EED /* XHMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XHMessageTextView.m; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		CC326710F75E3DB9F18C7E938CECD8F1 /* HZCustomToolBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZCustomToolBar-dummy.m"; sourceTree = "<group>"; };
-		D27D47E1DCEE4B00B538C29803745F1D /* HZCustomToolBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZCustomToolBar-prefix.pch"; sourceTree = "<group>"; };
 		D4291BDE59F0C50071D5E931D04A521C /* Pods-HZCustomToolBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZCustomToolBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		D4460184B3ADFA3E28B2486277537717 /* Pods-HZCustomToolBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCustomToolBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4C1CA06D4D6D67F949CF7CAA0381038 /* Pods-HZCustomToolBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZCustomToolBar_Example-resources.sh"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		DD564E131EC1B68A00310909 /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
-		DD564E141EC1B68A00310909 /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
+		DCC3A9E0A4F995340F2CA78F9EEC05EB /* XHMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XHMessageTextView.h; sourceTree = "<group>"; };
 		E03CDF1B84E6D9207DD2A1F89C342CDC /* Pods-HZCustomToolBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZCustomToolBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E127545F33CAB0B38BA7695B53BF8212 /* ResourceBundle-HZCustomToolBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HZCustomToolBar-Info.plist"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E411E3AE58886E2E2A0A335B08354E6C /* HZCustomToolBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZCustomToolBar.xcconfig; sourceTree = "<group>"; };
+		E568022ABE596CE4D8742A424BD43EB0 /* messageToolbarBg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "messageToolbarBg@2x.png"; sourceTree = "<group>"; };
+		EDBE0ADE443B519718657F07B0F4B85D /* HZCustomToolBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HZCustomToolBar-dummy.m"; sourceTree = "<group>"; };
 		F3CB76320828CCDB34690A3FC29D6515 /* Pods-HZCustomToolBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZCustomToolBar_Example-dummy.m"; sourceTree = "<group>"; };
-		F5EEDECD6B13D0E1A51CD5C4A0A926FF /* Pods-HZCustomToolBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HZCustomToolBar_Tests.modulemap"; sourceTree = "<group>"; };
+		F5EEDECD6B13D0E1A51CD5C4A0A926FF /* Pods-HZCustomToolBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HZCustomToolBar_Tests.modulemap"; sourceTree = "<group>"; };
 		FB69D2EC9BEA67D8C6A342280BEB2078 /* Pods-HZCustomToolBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCustomToolBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBB5338E26BC91CEF5E8E2ACF1F99FEB /* Pods-HZCustomToolBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZCustomToolBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,27 +169,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7C38451312C88B45F70C6B7B4664434 /* Frameworks */ = {
+		99B1F01D098EAEA11BB34318B2FB00DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F2B5B891EC8FDE0D2C22B61D634D08D /* Foundation.framework in Frameworks */,
+				1B9546F78D9891A23B37FBF7741FBF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F209AA0B2110DC35F28F9208507E108A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D19D146D695561CCFC9F5A8CD1EA498 /* HZCustomToolBar */ = {
-			isa = PBXGroup;
-			children = (
-				998F3C13CF28B85D17E71C8C36D4FDA6 /* HZCustomToolBar */,
-				D5EAB3EA3711D2AD39DBDD85D51772B6 /* Support Files */,
-			);
-			name = HZCustomToolBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +216,7 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -226,10 +238,33 @@
 			path = "Target Support Files/Pods-HZCustomToolBar_Example";
 			sourceTree = "<group>";
 		};
-		298382FA35E4E3EBC93FCEA813753229 /* Development Pods */ = {
+		3E7BD0B5A95437D95A5BB22C91496D9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D19D146D695561CCFC9F5A8CD1EA498 /* HZCustomToolBar */,
+				BAB25B1AD9745E5BD1C987CE471E7369 /* FBSnapshotTestCase.framework */,
+				9113ACDD71D3AB6804911A67467A22F2 /* HZCustomToolBar.bundle */,
+				A54A3D10DCD559F9CA337390C7944B58 /* HZCustomToolBar.framework */,
+				4923A18D83A51A79A279A4A8479B652F /* Pods_HZCustomToolBar_Example.framework */,
+				52BE7B5A1E079031C11E4EA17A92CCB5 /* Pods_HZCustomToolBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474F6ECD23090F3DAC57D0F73B60B228 /* HZCustomToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				961380DAE8676AA9DBE497DD10D2CECD /* HZCustomToolBar */,
+				B0793C10D9D25CD8D491EA7B51A1688B /* Resources */,
+				DAC3D428ADF553667944F390EBF81F05 /* Support Files */,
+			);
+			name = HZCustomToolBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		587E0EB8AAFDBF916860ADA2464B3EA7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474F6ECD23090F3DAC57D0F73B60B228 /* HZCustomToolBar */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -238,12 +273,26 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				298382FA35E4E3EBC93FCEA813753229 /* Development Pods */,
+				587E0EB8AAFDBF916860ADA2464B3EA7 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				E5A36DDC55D81E145ACFE24ADD988CE5 /* Products */,
+				3E7BD0B5A95437D95A5BB22C91496D9A /* Products */,
 				9DD922AABA3D814BBFE8D6FD400D0BA3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8083DE7B5460E69A6F92E61129BED536 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2817C278B46A89689088F719076DB9C /* MyWorkCircleCommentToolBar.h */,
+				B490022A170BD12C77799EAE26C9BECB /* MyWorkCircleCommentToolBar.m */,
+				19F38700165CA05995FDCE6DA2CA1364 /* UITextView+Extension.h */,
+				884D684DBC5EEBFDD6D82AD9A9FF7005 /* UITextView+Extension.m */,
+				DCC3A9E0A4F995340F2CA78F9EEC05EB /* XHMessageTextView.h */,
+				C6F7BD88908BF8644CD18345F2C60EED /* XHMessageTextView.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
@@ -257,11 +306,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		998F3C13CF28B85D17E71C8C36D4FDA6 /* HZCustomToolBar */ = {
+		961380DAE8676AA9DBE497DD10D2CECD /* HZCustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
-				A96AB6D9A43CA2598989299A3EDD8B95 /* Classes */,
+				8083DE7B5460E69A6F92E61129BED536 /* Classes */,
 			);
+			name = HZCustomToolBar;
 			path = HZCustomToolBar;
 			sourceTree = "<group>";
 		};
@@ -282,42 +332,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A96AB6D9A43CA2598989299A3EDD8B95 /* Classes */ = {
+		B0793C10D9D25CD8D491EA7B51A1688B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				720FF8EEDB3A92C9F5D9C6B458043584 /* MyWorkCircleCommentToolBar.h */,
-				9185CD98FD8BA37482D38A21393ECD94 /* MyWorkCircleCommentToolBar.m */,
-				540C616226C3F0B0D0C71426331AFCEC /* XHMessageTextView.h */,
-				C36CD9AF7FCDE4CFDF8AD24FB905DFC0 /* XHMessageTextView.m */,
-				DD564E131EC1B68A00310909 /* UITextView+Extension.h */,
-				DD564E141EC1B68A00310909 /* UITextView+Extension.m */,
+				DC3DA44D910C1374C18C7146F016E01E /* HZCustomToolBar */,
 			);
-			path = Classes;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		D5EAB3EA3711D2AD39DBDD85D51772B6 /* Support Files */ = {
+		C171F0348E8CCA209B79BE88F9EC1F13 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A8FE65AD2C7D73494A8C1C6D8DAE2894 /* HZCustomToolBar.modulemap */,
-				E411E3AE58886E2E2A0A335B08354E6C /* HZCustomToolBar.xcconfig */,
-				CC326710F75E3DB9F18C7E938CECD8F1 /* HZCustomToolBar-dummy.m */,
-				D27D47E1DCEE4B00B538C29803745F1D /* HZCustomToolBar-prefix.pch */,
-				20D553170B4948865D35EE2688A20EE4 /* HZCustomToolBar-umbrella.h */,
-				29C81D3C579D618C0E8CDE463F06DC90 /* Info.plist */,
+				E568022ABE596CE4D8742A424BD43EB0 /* messageToolbarBg@2x.png */,
+				4B40372CE6F041CA521B2DB0C0B48652 /* messageToolbarBg@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DAC3D428ADF553667944F390EBF81F05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCBD6B636CFDA4589D78E0D0BF5EC00 /* HZCustomToolBar.modulemap */,
+				8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */,
+				EDBE0ADE443B519718657F07B0F4B85D /* HZCustomToolBar-dummy.m */,
+				89E716BDB71719D635BF3FDA387AD423 /* HZCustomToolBar-prefix.pch */,
+				9D16FBA4289C6FE81C4FBF85C5B5D14B /* HZCustomToolBar-umbrella.h */,
+				A5C2FC6C24443BAAFB6ADFFF6633535E /* Info.plist */,
+				E127545F33CAB0B38BA7695B53BF8212 /* ResourceBundle-HZCustomToolBar-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HZCustomToolBar";
 			sourceTree = "<group>";
 		};
-		E5A36DDC55D81E145ACFE24ADD988CE5 /* Products */ = {
+		DC3DA44D910C1374C18C7146F016E01E /* HZCustomToolBar */ = {
 			isa = PBXGroup;
 			children = (
-				04A6A4560C45027265C469C742EF44EE /* FBSnapshotTestCase.framework */,
-				B34047E39DE6F38CE56C805D2631417A /* HZCustomToolBar.framework */,
-				43A73789425A3C6D720C5AF4529E75AA /* Pods_HZCustomToolBar_Example.framework */,
-				2CC8947A3F4532B2EC0BCD20F02B4378 /* Pods_HZCustomToolBar_Tests.framework */,
+				C171F0348E8CCA209B79BE88F9EC1F13 /* Assets */,
 			);
-			name = Products;
+			name = HZCustomToolBar;
+			path = HZCustomToolBar;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -378,13 +432,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B885C4B9E859D56B4ACA771526D06C3 /* Headers */ = {
+		31DE5C5544598E26FB5C58A72A9DC434 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67CC04AEB2752F5BFEEB556B14387048 /* HZCustomToolBar-umbrella.h in Headers */,
-				64C591BBC61952045791F5F4C577F9A4 /* MyWorkCircleCommentToolBar.h in Headers */,
-				25697AAF45D291F4DE01A9BDAEC3958F /* XHMessageTextView.h in Headers */,
+				9F57FADB90DBB29F210B9639A00CEE14 /* HZCustomToolBar-umbrella.h in Headers */,
+				0FD3CA8011AA236378E40B156BEB80B3 /* MyWorkCircleCommentToolBar.h in Headers */,
+				8C89A65939900E255F3F1810A4773C80 /* UITextView+Extension.h in Headers */,
+				2F57537C9537BCA71DE8F1C56B613FC2 /* XHMessageTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +453,6 @@
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				DD564E151EC1B68A00310909 /* UITextView+Extension.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
 			);
@@ -429,24 +483,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 04A6A4560C45027265C469C742EF44EE /* FBSnapshotTestCase.framework */;
+			productReference = BAB25B1AD9745E5BD1C987CE471E7369 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4A8FBB3B519F161CB3E57ACD699CF304 /* HZCustomToolBar */ = {
+		7FF52AF6F50ABE3BCF5DDEF99A1EA5AF /* HZCustomToolBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D214183EED99AB643BC58BED2CEB1075 /* Build configuration list for PBXNativeTarget "HZCustomToolBar" */;
+			buildConfigurationList = B0965D5A3CB2BA5AA3E655DBE01AE1E9 /* Build configuration list for PBXNativeTarget "HZCustomToolBar" */;
 			buildPhases = (
-				A03ECA6C98B30701C3FC8D41BAD28367 /* Sources */,
-				E7C38451312C88B45F70C6B7B4664434 /* Frameworks */,
-				7B885C4B9E859D56B4ACA771526D06C3 /* Headers */,
+				B1291D10EDC3B15F52BC5676F5A1A861 /* Sources */,
+				99B1F01D098EAEA11BB34318B2FB00DE /* Frameworks */,
+				938F7984B4E0C5E0ED61F60584C570B2 /* Resources */,
+				31DE5C5544598E26FB5C58A72A9DC434 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F77AF93CB92BEE12D9AEB4189B199B39 /* PBXTargetDependency */,
 			);
 			name = HZCustomToolBar;
 			productName = HZCustomToolBar;
-			productReference = B34047E39DE6F38CE56C805D2631417A /* HZCustomToolBar.framework */;
+			productReference = A54A3D10DCD559F9CA337390C7944B58 /* HZCustomToolBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C0DFD614EA4764063AE5A8D85519DE71 /* Pods-HZCustomToolBar_Example */ = {
@@ -464,7 +520,7 @@
 			);
 			name = "Pods-HZCustomToolBar_Example";
 			productName = "Pods-HZCustomToolBar_Example";
-			productReference = 43A73789425A3C6D720C5AF4529E75AA /* Pods_HZCustomToolBar_Example.framework */;
+			productReference = 4923A18D83A51A79A279A4A8479B652F /* Pods_HZCustomToolBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9989AA8B9B0FFFB94E2B692E07606C3 /* Pods-HZCustomToolBar_Tests */ = {
@@ -482,8 +538,25 @@
 			);
 			name = "Pods-HZCustomToolBar_Tests";
 			productName = "Pods-HZCustomToolBar_Tests";
-			productReference = 2CC8947A3F4532B2EC0BCD20F02B4378 /* Pods_HZCustomToolBar_Tests.framework */;
+			productReference = 52BE7B5A1E079031C11E4EA17A92CCB5 /* Pods_HZCustomToolBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DFBEC44E3B3760A369FA8F5B69C14B83 /* HZCustomToolBar-HZCustomToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D4915D26F16383261BA1645870E43F /* Build configuration list for PBXNativeTarget "HZCustomToolBar-HZCustomToolBar" */;
+			buildPhases = (
+				DA095C7485F7208B4EC2B1FEDD5C0D78 /* Sources */,
+				F209AA0B2110DC35F28F9208507E108A /* Frameworks */,
+				3F83A950416D1110E09E0E1C18E6A4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HZCustomToolBar-HZCustomToolBar";
+			productName = "HZCustomToolBar-HZCustomToolBar";
+			productReference = 9113ACDD71D3AB6804911A67467A22F2 /* HZCustomToolBar.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -502,17 +575,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E5A36DDC55D81E145ACFE24ADD988CE5 /* Products */;
+			productRefGroup = 3E7BD0B5A95437D95A5BB22C91496D9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				4A8FBB3B519F161CB3E57ACD699CF304 /* HZCustomToolBar */,
+				7FF52AF6F50ABE3BCF5DDEF99A1EA5AF /* HZCustomToolBar */,
+				DFBEC44E3B3760A369FA8F5B69C14B83 /* HZCustomToolBar-HZCustomToolBar */,
 				C0DFD614EA4764063AE5A8D85519DE71 /* Pods-HZCustomToolBar_Example */,
 				C9989AA8B9B0FFFB94E2B692E07606C3 /* Pods-HZCustomToolBar_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F83A950416D1110E09E0E1C18E6A4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D715F405E01C1F969B881E726F849CA /* messageToolbarBg@2x.png in Resources */,
+				4CBF028644B05EA13818CD2A3ACD5BEA /* messageToolbarBg@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938F7984B4E0C5E0ED61F60584C570B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D817F77A74ACF61964204DDC0CF151 /* HZCustomToolBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3ED0C9BED21E11557034E6D85758309E /* Sources */ = {
@@ -523,21 +617,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A03ECA6C98B30701C3FC8D41BAD28367 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD3A4767D20D9AA6BFE0F73F3779113B /* HZCustomToolBar-dummy.m in Sources */,
-				B568D89CE7A4F2FE5216E4B7453017F0 /* MyWorkCircleCommentToolBar.m in Sources */,
-				2F7D5AA7E90BB65A79FFF9CEB966E641 /* XHMessageTextView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A251E5CEDCF1E889942971885E93ED7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9833658942C115AAAB76A3E830D3BBFF /* Pods-HZCustomToolBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1291D10EDC3B15F52BC5676F5A1A861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3250DF8CC4F01E801A36F0D3ECA0F /* HZCustomToolBar-dummy.m in Sources */,
+				97CBD70E627F3A67C031092EA0112124 /* MyWorkCircleCommentToolBar.m in Sources */,
+				97554B4437581A178C4B13607010DDE9 /* UITextView+Extension.m in Sources */,
+				C0BBCA31C9AE8CEDC1A76F237AE12FCA /* XHMessageTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA095C7485F7208B4EC2B1FEDD5C0D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +654,6 @@
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				DD564E161EC1B68A00310909 /* UITextView+Extension.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
 			);
@@ -570,12 +671,50 @@
 		CE77795AFDCB95C09EF2EB0363FD9871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HZCustomToolBar;
-			target = 4A8FBB3B519F161CB3E57ACD699CF304 /* HZCustomToolBar */;
+			target = 7FF52AF6F50ABE3BCF5DDEF99A1EA5AF /* HZCustomToolBar */;
 			targetProxy = 6A873AB345EA4EBE1715B85EA0E7A762 /* PBXContainerItemProxy */;
+		};
+		F77AF93CB92BEE12D9AEB4189B199B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HZCustomToolBar-HZCustomToolBar";
+			target = DFBEC44E3B3760A369FA8F5B69C14B83 /* HZCustomToolBar-HZCustomToolBar */;
+			targetProxy = B4325065B096B1020053B2A3FAAC9F3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		14321FD2A9A9F345564F777CB0055A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HZCustomToolBar/HZCustomToolBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HZCustomToolBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HZCustomToolBar/HZCustomToolBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HZCustomToolBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		22495118C51DD22E74EEC83D858F1334 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB69D2EC9BEA67D8C6A342280BEB2078 /* Pods-HZCustomToolBar_Example.release.xcconfig */;
@@ -778,6 +917,40 @@
 			};
 			name = Release;
 		};
+		8765ED21EA9846F22C6A687C2345D5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HZCustomToolBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HZCustomToolBar/ResourceBundle-HZCustomToolBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HZCustomToolBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C60666CC78F9F38A4ACA28EC04CE0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HZCustomToolBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HZCustomToolBar/ResourceBundle-HZCustomToolBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HZCustomToolBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		8CCFBEF3320529461B4054B5CD5DADD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C3AAB5C4B6C4E8863390FBEA7FAE433 /* Pods-HZCustomToolBar_Tests.debug.xcconfig */;
@@ -811,38 +984,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A66F1DCE319A0952A824759117CF7732 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E411E3AE58886E2E2A0A335B08354E6C /* HZCustomToolBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HZCustomToolBar/HZCustomToolBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HZCustomToolBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HZCustomToolBar/HZCustomToolBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HZCustomToolBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -884,16 +1025,16 @@
 			};
 			name = Debug;
 		};
-		DD76F87BEA2CC0508DB224C1922466D0 /* Release */ = {
+		EF2CFE3BE3C46638E545A19A6A1802C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E411E3AE58886E2E2A0A335B08354E6C /* HZCustomToolBar.xcconfig */;
+			baseConfigurationReference = 8E2AB83EED4D1D2BBE5A14C0EF279468 /* HZCustomToolBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -906,7 +1047,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HZCustomToolBar/HZCustomToolBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = HZCustomToolBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -914,7 +1055,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F6DBA53A4511720174B84279A5CEB561 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -953,6 +1094,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22D4915D26F16383261BA1645870E43F /* Build configuration list for PBXNativeTarget "HZCustomToolBar-HZCustomToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8765ED21EA9846F22C6A687C2345D5BB /* Debug */,
+				8C60666CC78F9F38A4ACA28EC04CE0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -980,11 +1130,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D214183EED99AB643BC58BED2CEB1075 /* Build configuration list for PBXNativeTarget "HZCustomToolBar" */ = {
+		B0965D5A3CB2BA5AA3E655DBE01AE1E9 /* Build configuration list for PBXNativeTarget "HZCustomToolBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A66F1DCE319A0952A824759117CF7732 /* Debug */,
-				DD76F87BEA2CC0508DB224C1922466D0 /* Release */,
+				EF2CFE3BE3C46638E545A19A6A1802C1 /* Debug */,
+				14321FD2A9A9F345564F777CB0055A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

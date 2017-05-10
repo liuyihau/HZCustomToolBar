@@ -11,6 +11,7 @@
 #endif
 
 #import "MyWorkCircleCommentToolBar.h"
+#import "UITextView+Extension.h"
 #import "XHMessageTextView.h"
 
 FOUNDATION_EXPORT double HZCustomToolBarVersionNumber;
