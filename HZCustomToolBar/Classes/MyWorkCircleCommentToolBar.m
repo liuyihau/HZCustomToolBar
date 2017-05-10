@@ -18,8 +18,6 @@
     CGFloat _previousTextViewContentHeight;//上一次inputTextView的contentSize.height
 }
 
-@property (nonatomic) CGFloat version;
-
 /**
  *  背景
  */
@@ -33,12 +31,6 @@
 @property (strong, nonatomic) UIView *toolbarView;
 @property (strong, nonatomic) UIButton *sendButton;
 @property (strong, nonatomic) UIView * lineView;
-
-/**
- *  底部扩展页面
- */
-@property (nonatomic) BOOL isShowButtomView;
-@property (strong, nonatomic) UIView *activityButtomView;//当前活跃的底部扩展页面
 
 @end
 
@@ -188,6 +180,21 @@
 
 - (void)textViewDidChange:(UITextView *)textView
 {
+    
+    if (self.inputTextView.fullText.length > 0) {
+        
+        [self.sendButton setTitleColor:RGBColor(101, 200, 52)forState:UIControlStateNormal];
+        self.sendButton.layer.borderColor = RGBColor(101, 200, 52).CGColor;
+        self.sendButton.userInteractionEnabled = YES;
+        
+    }else{
+        
+        [self.sendButton setTitleColor:RGBColor(180, 180, 180)forState:UIControlStateNormal];
+        self.sendButton.layer.borderColor = RGBColor(180, 180, 180).CGColor;
+        self.sendButton.userInteractionEnabled = NO;
+        
+    }
+    
     [self willShowInputTextViewToHeight:[self getTextViewContentH:textView]];
 }
 
@@ -218,12 +225,8 @@
  */
 - (void)setupConfigure
 {
-    self.version = [[[UIDevice currentDevice] systemVersion] floatValue];
-    
     self.maxTextInputViewHeight = kInputTextViewMaxHeight;
     
-    self.activityButtomView = nil;
-    self.isShowButtomView = NO;
     self.backgroundImageView.image = [[UIImage imageNamed:@"messageToolbarBg"] stretchableImageWithLeftCapWidth:0.5 topCapHeight:10];
     [self addSubview:self.backgroundImageView];
     
@@ -249,18 +252,16 @@
         _sendButton.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin;
         [_sendButton setTitle:@"发送" forState:UIControlStateNormal];
         
-        [_sendButton setTitleColor:RGBColor(101, 200, 52)forState:UIControlStateNormal];
-        [_sendButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
+
         
         [_sendButton addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
-        
         _sendButton.titleLabel.font = [UIFont systemFontOfSize:17];
-        
-        _sendButton.layer.cornerRadius = 5.0;
-        _sendButton.layer.borderColor = RGBColor(101, 200, 52).CGColor;
         _sendButton.layer.borderWidth = 1;
-        _sendButton.clipsToBounds = YES;
+        _sendButton.layer.cornerRadius = 5.0;
         
+        [_sendButton setTitleColor:RGBColor(180, 180, 180)forState:UIControlStateNormal];
+        _sendButton.layer.borderColor = RGBColor(180, 180, 180).CGColor;
+        _sendButton.userInteractionEnabled = NO;
         
             }
     return _sendButton;
@@ -295,7 +296,8 @@
 -(UIView *)lineView{
     
     if (!_lineView) {
-        _lineView= [[UIView alloc]initWithFrame:CGRectMake(kVerticalPadding,self.frame.size.height - 1.5, CGRectGetWidth(self.inputTextView.frame), 2)];
+        
+        _lineView= [[UIView alloc]init];
         
         _lineView.backgroundColor = RGBColor(101, 200, 52);
     }
@@ -331,51 +333,12 @@
 
 }
 
-- (void)willShowBottomView:(UIView *)bottomView
-{
-    if (![self.activityButtomView isEqual:bottomView]) {
-        
-        CGFloat bottomHeight;
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        NSString *str = [defaults objectForKey:@"push"];
-        
-        
-        if ([str isEqualToString:@"indexPush"] && str) {
-            
-            bottomHeight = bottomView ? bottomView.frame.size.height + 48: 0;
-            
-        }else{
-            
-            bottomHeight = bottomView ? bottomView.frame.size.height : 0;
-        }
-        
-        [self willShowBottomHeight:bottomHeight];
-        
-        if (bottomView) {
-            CGRect rect = bottomView.frame;
-            rect.origin.y = CGRectGetMaxY(self.toolbarView.frame);
-            bottomView.frame = rect;
-            bottomView.backgroundColor = [UIColor clearColor];
-            [self addSubview:bottomView];
-        }
-        
-        if (self.activityButtomView) {
-            [self.activityButtomView removeFromSuperview];
-        }
-        self.activityButtomView = bottomView;
-    }
-}
-
 - (void)willShowKeyboardFromFrame:(CGRect)beginFrame toFrame:(CGRect)toFrame
 {
     if (beginFrame.origin.y == [[UIScreen mainScreen] bounds].size.height)
     {
-        //一定要把self.activityButtomView置为空
         [self willShowBottomHeight:toFrame.size.height];
-        if (self.activityButtomView) {
-            [self.activityButtomView removeFromSuperview];
-        }
-        self.activityButtomView = nil;
+        
     }
     else if (toFrame.origin.y == [[UIScreen mainScreen] bounds].size.height)
     {
@@ -390,16 +353,19 @@
 {
     if (toHeight < kInputTextViewMinHeight) {
         toHeight = kInputTextViewMinHeight;
+        
     }
     if (toHeight > self.maxTextInputViewHeight) {
+        
         toHeight = self.maxTextInputViewHeight;
+        
     }
-    
     if (toHeight == _previousTextViewContentHeight)
     {
         return;
-    }
-    else{
+        
+    }else{
+        
         CGFloat changeHeight = toHeight - _previousTextViewContentHeight;
         
         CGRect rect = self.frame;
@@ -410,11 +376,9 @@
         rect = self.toolbarView.frame;
         rect.size.height += changeHeight;
         self.toolbarView.frame = rect;
-        
-        
-        if (self.version < 7.0) {
-            [self.inputTextView setContentOffset:CGPointMake(0.0f, (self.inputTextView.contentSize.height - self.inputTextView.frame.size.height) / 2) animated:YES];
-        }
+
+        [self.inputTextView setContentOffset:CGPointMake(0.0f, (self.inputTextView.contentSize.height - self.inputTextView.frame.size.height) / 2) animated:YES];
+
         _previousTextViewContentHeight = toHeight;
         
         if (_delegate && [_delegate respondsToSelector:@selector(didChangeFrameToHeight:)]) {
@@ -423,20 +387,23 @@
                 
         }
     }
+    
 }
 
 - (CGFloat)getTextViewContentH:(UITextView *)textView
 {
+
     CGFloat height = 0.0f;
     
-    if (self.version >= 7.0)
-    {
-        height =  ceilf([textView sizeThatFits:textView.frame.size].height);
-    } else {
-        height =  textView.contentSize.height;
+    height =  ceilf([textView sizeThatFits:textView.frame.size].height);
+    
+    if (height > 200) {
+    
+        height = 203;
     }
     
-        self.lineView.frame = CGRectMake(kVerticalPadding,height - 1.5, CGRectGetWidth(self.inputTextView.frame), 2);
+    self.lineView.frame = CGRectMake(kVerticalPadding,height + 1, CGRectGetWidth(self.inputTextView.frame), 2);
+    
     
     return height;
 }
